@@ -82,6 +82,11 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: white;
+    color: #3882f6;
+}
+
 /* Section Two */
 
 .title {
@@ -160,6 +165,11 @@ button {
 .action button {
     border: #e5e7eb 3px solid;
     padding: 8px 35px;
+}
+
+.action button:hover {
+    border: none;
+    padding:11px 38px;
 }
 
 /* Footer */

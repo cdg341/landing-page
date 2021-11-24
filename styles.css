@@ -1,12 +1,12 @@
 body {
   height: 100vh;
   margin: 0;
-  overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
 }
 
+/* Section One */
 
 .header {
     display: flex;
@@ -50,8 +50,7 @@ a {
     justify-content: space-between;
     align-items: flex-start;
     color:white;
-    padding: 40px 200px;
-
+    padding: 40px 200px 120px 200px;
 }
 
 .section-one h1 {
@@ -83,3 +82,27 @@ button {
     border: none;
 }
 
+/* Section Two */
+
+.title {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.images p{
+    max-width: 200px;
+    margin-top: 6px;
+}
+
+.images img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
